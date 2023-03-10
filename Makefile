@@ -18,4 +18,4 @@ all: ${OBJECTS}
 	${CPP} ${CPPFLAGS} -c $*.cpp
 
 clean:
-	del ${OBJECTS} core a.out errs
+	del ${OBJECTS} libarduino.a
